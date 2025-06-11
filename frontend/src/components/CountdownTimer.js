@@ -35,7 +35,7 @@ function CountdownTimer() {
 
   const handleJoin = async () => {
     try {
-      const response = await axios.post(`http://localhost:5000/api/deals/${deal.id}/join`);
+      const response = await axios.post(`https://squadbid-1.onrender.com/api/deals/${deal.id}/join`);
       if (response.data.success) {
         setUsersJoined(response.data.usersJoined);
         setMessage('🎉 Successfully joined the group deal!');

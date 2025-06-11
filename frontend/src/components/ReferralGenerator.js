@@ -12,7 +12,7 @@ function ReferralGenerator() {
       return;
     }
     try {
-      const response = await axios.post('http://localhost:5000/api/referral', { userId });
+      const response = await axios.post('https://squadbid-1.onrender.com/api/referral', { userId });
       setReferralLink(response.data.referralLink);
       setMessage('Referral link generated!');
     } catch (error) {

@@ -7,7 +7,7 @@ function Dashboard() {
   useEffect(() => {
     const fetchDeals = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/deals');
+        const response = await axios.get('https://squadbid-1.onrender.com/api/deals');
         setDeals(response.data);
       } catch (error) {
         console.error('Error fetching deals:', error);
