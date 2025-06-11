@@ -9,7 +9,7 @@ Implements three features:
 **Reasoning**: Features drive engagement, urgency, and visibility. Uses React, Express, and custom CSS due to Tailwind installation issues.
 
 ## Setup Instructions
-1. Clone: `git clone <repo-url>`
+1. Clone: `git clone <https://github.com/sirichandanna/squadbid-.git>`
 2. Backend: `cd server`, `npm install`, `node index.js`
 3. Frontend: `cd client`, `npm install`, `npm start`
 4. Visit `http://localhost:3000`
