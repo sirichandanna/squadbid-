@@ -4,7 +4,7 @@ import axios from 'axios';
 function CountdownTimer() {
   const deal = { 
     id: 1, 
-    name: '🎧 50% Off Premium Headphones', 
+    name: '🎧 40% Off Premium Headphones', 
     totalNeeded: 10, 
     deadline: new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString() 
   };
